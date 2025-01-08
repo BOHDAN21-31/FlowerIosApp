@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		604D8AEA2D2ECEF2001CAB04 /* Flower.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Flower.xcodeproj; sourceTree = "<group>"; };
 		6051F3DF2D2A8045003F7AEE /* Flower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6051F3F52D2A8047003F7AEE /* FlowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6051F3FF2D2A8047003F7AEE /* FlowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		604D8AEC2D2ECEF2001CAB04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6051F3D62D2A8045003F7AEE = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +219,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6051F3E02D2A8045003F7AEE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 604D8AEC2D2ECEF2001CAB04 /* Products */;
+					ProjectRef = 604D8AEA2D2ECEF2001CAB04 /* Flower.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6051F3DE2D2A8045003F7AEE /* Flower */,
