@@ -28,6 +28,8 @@
 		6051F3DF2D2A8045003F7AEE /* Flower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6051F3F52D2A8047003F7AEE /* FlowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6051F3FF2D2A8047003F7AEE /* FlowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B09F682D30D26C00B2C554 /* Flower.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Flower.xcodeproj; sourceTree = "<group>"; };
+		60B09FAC2D30DB0C00B2C554 /* Flower.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Flower.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -109,6 +111,20 @@
 				6051F3DF2D2A8045003F7AEE /* Flower.app */,
 				6051F3F52D2A8047003F7AEE /* FlowerTests.xctest */,
 				6051F3FF2D2A8047003F7AEE /* FlowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B09F6A2D30D26C00B2C554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B09FAE2D30DB0C00B2C554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +236,14 @@
 			productRefGroup = 6051F3E02D2A8045003F7AEE /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 60B09F6A2D30D26C00B2C554 /* Products */;
+					ProjectRef = 60B09F682D30D26C00B2C554 /* Flower.xcodeproj */;
+				},
+				{
+					ProductGroup = 60B09FAE2D30DB0C00B2C554 /* Products */;
+					ProjectRef = 60B09FAC2D30DB0C00B2C554 /* Flower.xcodeproj */;
+				},
 				{
 					ProductGroup = 604D8AEC2D2ECEF2001CAB04 /* Products */;
 					ProjectRef = 604D8AEA2D2ECEF2001CAB04 /* Flower.xcodeproj */;
